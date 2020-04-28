@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 5px; /* keep */
+    /* box-sizing: border-box; */
+}
+
+body {
+    text-align: center;
+    font-family: "Courier New", "Times New Roman", Verdana;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: inherit;
+}
+
+/* input, label, textarea {
+    display: block;
+    margin-left:0px;
+    margin-right:15px;
+} */
+
+select {
+    text-align: center;
+}
+
+div.insertselect {
+    text-align: center;
+}
+
+label {
+    font-weight:bold;
+    white-space: pre-wrap;
+    text-align: right;
+}
+
+#admin_header {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+form#addevent_form {
+    display: grid;
+    grid-template-columns: 300px 1fr;    
+    grid-template-rows: repeat(5, 100px);
+    border: 1px solid rgb(36, 34, 34);
+    font-family: "Courier New", "Times New Roman", Verdana;
+    align-items: center;
+    border-radius: 5px;
+    width: 650px;
+    height: 500px;
+    padding-top: 0px;
+    padding-bottom: 90px;
+    padding-left: 0px;
+    padding-right: 10px;
+    font-weight: lighter;
+    color:  rgb(0, 0, 0);
+}
+
+textarea {
+    resize: none;
+}
+
+.button {
+    max-width: 100px;
+}
+
+.formatlabeltext {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+#eventdate {
+    margin-bottom: 10px;
+}
+
+#eventdesclabel {
+    margin-top: 60px;
+}
+
+#eventdesc {
+    margin-top: 10px;
+}
+
+#eventbandlabel {
+    margin-top: 40px;
+}
+
+#eventband {
+    margin-top: 40px;
+}
+
+#addevent_btn {
+    width: auto;
+    margin-bottom: 10px;;
+}
+
+#grid-wrapper {
+    display: inline-block;
+    /* margin: auto; */
+    width: 700px;
+    text-align: center;
+}
+
+div.centeredcontainer {
+    text-align: center;
+}
+
+#admin_footer {
+    padding: 10px;
+    margin: 10px;
+}
+.error_msg {
+    color: rgb(243, 10, 10);
+    margin-top: 20px;
+}

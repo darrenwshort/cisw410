@@ -1,0 +1,232 @@
+/********************************/
+/* general page styling section */
+/********************************/
+
+body, html {
+  /* background-color: rgb(190, 196, 201); */
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: auto;
+  /* border: 5px solid pink; */
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  border: 5px solid orange;
+}
+
+.container {
+  width: auto;
+  /* margin: 0 auto; */
+  min-height: 650px;
+  /* padding-bottom: 100px; */
+  border: 5px solid green;
+}
+
+.centeredcontainer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+  border: 3px solid green;
+}
+
+header {
+  background-color: #000;
+}
+
+div.heading {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+html, body {
+  height: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+  text-align: center;
+  overflow: auto;
+}
+
+.index-main {
+    padding: 10px;
+    color: #ffbf00;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: inherit;
+}
+
+p {
+  font-family: inherit;
+}
+
+a .navbar {
+  display: inline;
+  padding: 0px;
+  text-decoration: none;
+  color: #000;
+}
+
+a.events {
+  display: inline;
+  padding: 0px;
+  text-decoration: underline;
+  color: #f00;
+}
+
+a:hover {
+  background-color: #D3D3D3;
+}
+
+ul {
+  text-align: left;
+}
+
+img {
+    border: 1px solid #000;
+}
+
+footer {
+  background-color: #000;
+  color: #FF2A00;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 35px;
+  padding-top: 16px;
+  /* margin-top: -100px; */
+  clear: both;
+  display: block;
+}
+
+
+/********************************/
+/* main navigation list styling */
+/********************************/
+
+nav ul {
+  list-style-type: none;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li {
+  float:left;
+  border-right:1px solid #fff;
+}
+nav ul li a {
+  display:block;
+  padding:8px;
+  text-decoration:none;
+  color:#FF2A00;
+  text-align:center;
+  padding:14px 16px;
+}
+.navright {
+  float:right;
+  border-left:1px solid #fff;
+}
+
+/********************************/
+/* band/artist specific styling */
+/********************************/
+
+.band-article {
+  text-align:left;
+  padding:15px;
+  color:#36454F
+}
+.band-img {
+  margin:15px;
+  max-width: 35%;
+  max-height: 35%;
+}
+.artist-cite {
+  font-style:italic;
+  font-size:1em;
+  color:#f00;
+}
+
+section.bandinfo {
+  text-align:center;
+  display:block;
+  width:100%;
+  height:100%;
+}
+section.bandinfo ul {
+    text-align:center;
+}
+.bandlist {
+    display:block;
+    /* border:2px solid #000; */
+}
+.bandlist ul {
+    text-align: center;
+    list-style:none;
+}
+.bandlist li {
+    padding:5px;
+}
+
+img.resize {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.right-align {
+  text-align: right;
+}
+
+/* input, label {
+  display: block;
+} */
+
+/**************************/
+/* event specific styling */
+/**************************/
+
+#events {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.eventList {
+  display: block;
+  border:1px solid #f00;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  background-color: rgb(48, 47, 47);
+  color: #f00;
+}
+
+#eventListSection {
+  /* overflow: hidden; */
+  color: inherit;
+}
+
+.eventItemLabel {
+  text-decoration: underline;
+  /* color: black; */
+  display: inline;
+}
+
+.eventItem {
+  /* color: black; */
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
